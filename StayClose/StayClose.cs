@@ -142,6 +142,13 @@ namespace StayClose
             {
                 foreach (TSPlayer player in TShock.Players)
                 {
+                    if (config.enableTeams)
+                    {
+                        if (player.Team != TSPlayer.FindByNameOrID(playerName)[0].Team)
+                        {
+                            continue;
+                        }
+                    }
                     if (player != null && player.RealPlayer && !player.Dead)
                     {
                         player.KillPlayer();
