@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StayClose", "StayClose.csproj", "{8FB6A015-A190-41B0-A09A-C637D78CF862}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FB6A015-A190-41B0-A09A-C637D78CF862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB6A015-A190-41B0-A09A-C637D78CF862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB6A015-A190-41B0-A09A-C637D78CF862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB6A015-A190-41B0-A09A-C637D78CF862}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4BC8B85-3D4D-487F-96E5-FD1E639902B1}
+	EndGlobalSection
+EndGlobal
